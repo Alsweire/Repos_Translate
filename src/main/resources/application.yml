@@ -1,0 +1,9 @@
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/db_Translator
+  username: root
+  password: root
+ jpa:
+  properties:
+   hibernate:
+    default_schema: translation_data
